@@ -18,7 +18,7 @@ func TryHw3(inputURL string) string {
 		panic(err)
 	}
 
-	fmt.Println("Spector Parsi Query Parameters:")
+	fmt.Println("Specktor Parsi Query Parameters:")
 	fmt.Println(queryParams)
 
 	hash := sha256.New()
